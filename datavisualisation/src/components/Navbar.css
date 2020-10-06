@@ -1,0 +1,43 @@
+.nav-row{
+  width: 100%;
+}
+
+.navbar-brand {
+  margin-left: 1em;
+}
+
+.mynav {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  width: 80%;
+  margin: 0 auto;
+}
+.nav-wrapper {
+  background-color: #2e284c;
+  color: white;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: #b0a8db;
+}
+
+.nav-link:hover, .nav-link:active{
+    color: white;
+}
+
+.navbar-brand {
+  color: #dc7af5;
+}
+
+.dropdown-menu {
+  background-color: #2e284c;
+}
+
+.dropdown-item {
+  color: #b0a8db;
+}
+
+.dropdown-item:hover {
+  color: #2e284c;
+}

@@ -1,0 +1,134 @@
+.bod {
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 30px;
+}
+
+.border-div {
+  border: 1px solid white;
+  height: 100%;
+}
+
+.planet-name-div {
+  padding-top: 2em;
+  text-align: center;
+}
+
+.planet-name {
+  font-size: 150px;
+  text-transform: uppercase;
+  font-family: 'Alatsi', 'Anton';
+  color: white;
+}
+
+.planet-info-main {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  width: 100%;
+  font-family: 'Quicksand';
+}
+
+.planet-info-1 {
+  font-size: 18px;
+}
+
+.span-div, .metric{
+  line-height: 2.5em;
+}
+.number {
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  color: #fefdff;
+}
+
+.number-series-1 {
+  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+.number-series-2 {
+  font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.number-series-3 {
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.metric {
+  text-transform: uppercase;
+  color: #d9701f;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-size: bold;
+}
+
+.planet-grid {
+  padding: 2px;
+}
+
+.span-div-small {
+  line-height: 1.5em;
+}
+
+.info-grid-wrapper {
+
+  padding-top: 200px;
+  width: 70%;
+  margin: auto;
+  color: white;
+  font-family: 'Quicksand';
+}
+
+.inner-grid-border {
+  padding: 12px;
+  border: 1px solid #bdb3b3;
+  margin: 2px;
+  min-height: 247px;
+}
+
+.my-indicators {
+  position: absolute;
+    right: 0;
+    top: 40px;;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.my-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,.5);
+}
+
+.space-icon {
+  align-self: center;
+  font-size: 60px;
+}
+
+.planet-info {
+  border-left: 2px solid #bdb3b3;
+  padding-left: 2em;
+}

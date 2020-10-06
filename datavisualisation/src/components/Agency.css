@@ -1,0 +1,103 @@
+.agency-wrapper{
+  font-family: 'Raleway', sans-serif;
+  padding-top: 4em;
+
+}
+
+
+.logo-div{
+  padding: 1.5em;
+
+}
+
+.agency-logo {
+  max-width: 100%;
+}
+
+.agency-name {
+  font-size: 60px;
+  font-family: 'Alatsi', sans-serif;
+}
+
+.agency-full-name {
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+.agency-country-div {
+  font-size: 25px;
+}
+.agency-country{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+.project-name, .project-name:hover, .project-name:visited, .project-name:active, .project-name:link {
+  text-decoration: none;
+  color: #7461b4;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.project-description {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 0.5em;
+  border-left: 2px solid orange;
+}
+
+.project-duration {
+  font-weight: bold;
+}
+
+.agency-projects{
+  font-size: 40px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-family: 'Alatsi', sans-serif;
+}
+
+.fancy-underline {
+  font-size: 28px;
+  font-family: 'Mansalva', cursive;
+}
+
+.fancy-underline span1 {
+  border-bottom: 5px solid;
+  border-image-source: linear-gradient(to right,#fce3ec,#ffe8cc);
+  border-image-slice: 1;
+  width: fit-content;
+  margin-bottom: 5px;
+}
+
+.fancy-underline span {
+  background: linear-gradient(to right,#fce3ec,#ffe8cc);
+  margin-bottom: 5px;
+}
+
+.links-wrapper {
+  left: 0;
+ top: 45%;
+ position: fixed;
+ padding-left: 2em;
+}
+
+.link-container {
+  font-size: 2em;
+}
+
+#website {
+  color: #51b7a9;
+}
+
+#facebook {
+  color: #4267B2;
+}
+#twitter {
+  color: #1DA1F2;
+}
+#instagram {
+  color: #fb3958;
+}

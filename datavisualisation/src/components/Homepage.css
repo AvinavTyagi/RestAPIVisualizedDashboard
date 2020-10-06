@@ -1,0 +1,134 @@
+.banner {
+  min-width: 100%;
+  min-height: 900px;
+  background-size: cover;
+  background-image: url("/img/backgrounds/liftoff.jpg");
+  background-color: rgba(255, 4, 225, 0.5);
+}
+
+.background-tint {
+  background-color: rgba(84,64,125,.7);
+  background-blend-mode: multiply;
+}
+
+.fancy-border {
+  border: 5px solid white;
+  border-image: linear-gradient(to left, #743ad5 0%, #d53a9d 100%);
+  border-image: linear-gradient(to left, #8e66e1 0%, #b965d5 100%);
+  border-image-slice: 1;
+  border-width: 12px;
+  width: 15%;
+  padding: 2em;
+  margin-left: 14em;
+  margin-top: 5em;
+}
+
+.name-div {
+  padding-top: 10%;
+}
+.name {
+  color: white;
+  font-size: 90px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  margin: 0 auto;
+}
+.logo img {
+  max-height: 200px;
+}
+
+.planet-tile-img{
+  max-width: 100%;
+  max-height: 100%;
+  transition: padding-top 0.2s;
+}
+
+.planet-tile-img:hover{
+  padding-top: 2em;
+}
+
+.plantes-div {
+  padding-top: 8em;
+  padding-bottom: 14em;
+  background-color: #3a315e;
+  color: white;
+}
+.section-title {
+  margin-bottom: 1em;
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.agency-title {
+  text-align: center;
+
+
+}
+.agency-tile-img{
+  max-width: 100%;
+  max-height: 200px;
+  padding: 20px;
+  transition: padding 0.2s;
+}
+
+.agency-tile-img:hover{
+  padding: -0px;
+}
+
+.agency-wrap {
+  max-height: 200px;
+}
+.agency-div {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  color: white;
+}
+
+.agency-div {
+  padding-top: 10em;
+  padding-bottom: 14em;
+  background-image: url("/img/backgrounds/space-purple.jpg");
+  background-size: cover;
+}
+
+.comparison-left {
+  padding-left: 10em;
+}
+
+.comparison-div {
+  overflow-x: hidden;
+  padding-top: 10em;
+  padding-bottom: 4em;
+  background-color: #3a315e;
+  color: white;
+}
+
+.mybtn {
+  text-decoration: none;
+  padding: 1em;
+  border: 1px solid #3a315e;
+  background-color: white;
+  color: #c37ce2;
+  border-radius: 5px;
+  margin-top: 15em;
+}
+
+.mybtn:hover {
+  color: #3a315e;
+  text-decoration: none;
+}
+
+.description {
+  font-weight: normal;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 2em;
+  width: 70%;
+}
+
+.image-right {
+  float: right;
+  margin-right: 20em;
+}
